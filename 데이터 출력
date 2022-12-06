@@ -1,0 +1,8 @@
+unique : 데이터에 고유값들이 어떠한 종류가 있는 지 알고 싶을 때 사용
+ex) 데이타프레임[컬럼명].unique() 
+
+nunique(): 데이터에 고유값들의 수를 출력해주는 함수
+ex) 데이타프레임[컬럼명].nunique()
+
+value_counts(): 값별로 데이터의 수를 출력해주는 함수
+ex)데이터프레임명[컬럼명].value_counts() -> (normalize=True) 하면 비율로 출력함 -> (ascending=True) 하면 오름차순으로 정렬, 기본이 내림차순임
